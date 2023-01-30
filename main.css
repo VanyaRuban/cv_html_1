@@ -1,0 +1,355 @@
+:root {
+	--brown: #774E2E;
+	--orange: #F37F34;
+	--white: #ffffff;
+	--yellow: #eac428;
+}
+
+.black {
+	color: black;
+}
+
+.yellow {
+	color: var(--yellow);
+}
+
+.title {
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.wd-10 {
+	width: 10px;
+}
+
+.wd-20 {
+	width: 20px;
+}
+
+.wd-30 {
+	width: 30px;
+}
+
+.wd-40 {
+	width: 40px;
+}
+
+.wd-50 {
+	width: 50px;
+}
+
+.wd-60 {
+	width: 60px;
+}
+
+.wd-70 {
+	width: 70px;
+}
+
+.wd-80 {
+	width: 80px;
+}
+
+.wd-90 {
+	width: 90px;
+}
+
+* {
+	margin: 0;
+}
+
+body {
+	font-family: 'Montserrat';
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+
+.left-side {
+	display: flex;
+	flex-direction: column;
+	margin-left: 15px;
+}
+
+.left-side > .candidate-photo {
+	background: no-repeat center/100% url("./assets/фото_1@288x.png");
+	max-width: 300px;
+	padding: 150px;
+}
+
+.left-side > .candidate-say-hello {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	margin: 0 auto;
+	width: 71%;
+}
+
+.left-side > .candidate-say-hello > p {
+	font-size: 40px;
+	font-weight: 800;
+	position: relative;
+	z-index: 4;
+}
+
+.left-side > .candidate-say-hello > .iam {
+	font-size: 40px;
+	font-weight: 800;
+	display: flex;
+	flex-direction: row;
+}
+
+.left-side > .candidate-say-hello > .iam > .horizontal-line {
+	width: 35px;
+	height: 160px;
+	position: absolute;
+	top: 279px;
+	background-color: var(--yellow);
+	z-index: 1;
+	left: 60px;
+}
+
+.left-side > .candidate-say-hello > .iam > p:last-child {
+	margin-left: 10px;
+}
+
+.left-side > .candidate-say-hello > .iam > p {
+	z-index: 4;
+}
+
+.left-side > .candidate-information {
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+}
+
+.left-side > .candidate-information > .contacts {
+	display: flex;
+	flex-direction: column;
+	padding: 0px 20px;
+	background-color: var(--yellow);
+	flex-wrap: nowrap;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.left-side > .candidate-information > .contacts > .contact-item {
+	margin: 10px 0;
+}
+
+.left-side > .candidate-information > .contacts > .contact-item > p:last-child {
+	font-size: 12px;
+}
+
+.left-side > .candidate-information > .skills {
+	padding: 0 40px;
+	margin: 20px 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.left-side > .candidate-information > .skills > .skill-item {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px 0;
+}
+
+.skill-name {
+	font-size: 12px;
+}
+
+.range {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.skill-range-left {
+	height: 10px;
+	align-items: baseline;
+	background-color: black;
+}
+
+.skill-range-right {
+	height: 10px;
+	align-items: baseline;
+	background-color: var(--yellow);
+}
+
+.left-side > .candidate-information > .languages {
+	padding: 0 40px;
+	margin: 20px 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.left-side > .candidate-information > .languages > .language-items {
+	display: flex;
+	flex-direction: row;
+	max-width: 250px;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.left-side > .candidate-information > .languages > .language-items > .language-item {
+	display: flex;
+	flex-direction: row;
+	background: no-repeat center/100% url("./assets/Ресурс 3@288x.png");
+	height: 100px;
+	width: 100px;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.left-side > .candidate-information > .languages > .language-items > .language-item:last-child {
+	position: relative;
+	bottom: 43px;
+}
+
+.language-item > span {
+	font-size: 12px;
+}
+
+.right-side {
+	display: flex;
+	flex-direction: column;
+	width: 74%;
+}
+
+.profile {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.profile > .profile-info {
+	display: flex;
+	flex-direction: column;
+	border-left: solid 2px var(--yellow);
+	margin-top: 25px;
+	width: 110%;
+}
+
+.profile-info > h2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	height: 150px;
+	border-bottom: solid 2px var(--yellow);
+	width: 105px;
+	padding-left: 20px;
+	text-transform: uppercase;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	letter-spacing: 3px;
+	font-size: 18px;
+}
+
+.profile-info > p {
+	padding: 20px 55px 15px 20px;
+	text-align: justify;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.yellow-block {
+	background: var(--yellow);
+	height: 200px;
+	width: 60px;
+}
+
+.education > h2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	height: 50px;
+	border-bottom: solid 2px var(--yellow);
+	border-left: solid 2px var(--yellow);
+	width: 140px;
+	padding-left: 20px;
+	text-transform: uppercase;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	letter-spacing: 3px;
+	font-size: 18px;
+}
+
+.education > .education-info {
+	display: flex;
+	flex-direction: row;
+	padding: 20px;
+	border-left: solid 2px var(--yellow);
+	width: 87%;
+	justify-content: space-between;
+}
+
+.education > .education-info > div > h2 {
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 14px;
+}
+
+.education > .education-info > div > p {
+	display: flex;
+	flex-direction: column;
+	margin-top: 2px;
+	margin-bottom: 3px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 14px;
+}
+
+.work-experience > h2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	height: 50px;
+	border-bottom: solid 2px var(--yellow);
+	border-left: solid 2px var(--yellow);
+	width: 240px;
+	padding-left: 20px;
+	text-transform: uppercase;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	letter-spacing: 3px;
+	font-size: 18px;
+}
+
+.work-experience > .work-items {
+	display: flex;
+	flex-direction: column;
+	border-left: solid 2px var(--yellow);
+}
+
+.work-items > div {
+	padding: 40px 0;
+}
+
+.work-items > div > h2 {
+	display: flex;
+	flex-direction: column;
+	border-bottom: solid 2px var(--yellow);
+	width: 220px;
+	padding-left: 20px;
+}
+
+.work-items > div > div {
+	padding-left: 20px;
+}
+
+.work-items > div > p {
+	padding-left: 20px;
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80px;
+	background-color: var(--yellow);
+}
