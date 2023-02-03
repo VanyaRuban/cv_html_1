@@ -76,33 +76,33 @@ main {
 	margin-left: 15px;
 }
 
-.left-side > .candidate-photo {
+.left-side>.candidate-photo {
 	background: no-repeat center/100% url("./assets/фото_1@288x.png");
 	max-width: 300px;
 	padding: 150px;
 }
 
-.left-side > .candidate-say-hello {
+.left-side>.candidate-say-hello {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	margin: 0 auto;
 	width: 71%;
 }
 
-.left-side > .candidate-say-hello > p {
+.left-side>.candidate-say-hello>p {
 	font-size: 40px;
 	font-weight: 800;
 	position: relative;
 	z-index: 4;
 }
 
-.left-side > .candidate-say-hello > .iam {
+.left-side>.candidate-say-hello>.iam {
 	font-size: 40px;
 	font-weight: 800;
 	display: flex;
 	flex-direction: row;
 }
 
-.left-side > .candidate-say-hello > .iam > .horizontal-line {
+.left-side>.candidate-say-hello>.iam>.horizontal-line {
 	width: 35px;
 	height: 160px;
 	position: absolute;
@@ -112,46 +112,46 @@ main {
 	left: 60px;
 }
 
-.left-side > .candidate-say-hello > .iam > p:last-child {
+.left-side>.candidate-say-hello>.iam>p:last-child {
 	margin-left: 10px;
 }
 
-.left-side > .candidate-say-hello > .iam > p {
+.left-side>.candidate-say-hello>.iam>p {
 	z-index: 4;
 }
 
-.left-side > .candidate-information {
+.left-side>.candidate-information {
 	display: flex;
 	flex-direction: column;
 	padding: 5px;
 }
 
-.left-side > .candidate-information > .contacts {
+.left-side>.candidate-information>.contacts {
 	display: flex;
 	flex-direction: column;
-	padding: 0px 20px;
+	padding: 0 20px;
 	background-color: var(--yellow);
 	flex-wrap: nowrap;
 	margin-left: 20px;
 	margin-top: 10px;
 }
 
-.left-side > .candidate-information > .contacts > .contact-item {
+.left-side>.candidate-information>.contacts>.contact-item {
 	margin: 10px 0;
 }
 
-.left-side > .candidate-information > .contacts > .contact-item > p:last-child {
+.left-side>.candidate-information>.contacts>.contact-item>p:last-child {
 	font-size: 12px;
 }
 
-.left-side > .candidate-information > .skills {
+.left-side>.candidate-information>.skills {
 	padding: 0 40px;
 	margin: 20px 0;
 	display: flex;
 	flex-direction: column;
 }
 
-.left-side > .candidate-information > .skills > .skill-item {
+.left-side>.candidate-information>.skills>.skill-item {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -181,14 +181,14 @@ main {
 	background-color: var(--yellow);
 }
 
-.left-side > .candidate-information > .languages {
+.left-side>.candidate-information>.languages {
 	padding: 0 40px;
 	margin: 20px 0;
 	display: flex;
 	flex-direction: column;
 }
 
-.left-side > .candidate-information > .languages > .language-items {
+.left-side>.candidate-information>.languages>.language-items {
 	display: flex;
 	flex-direction: row;
 	max-width: 250px;
@@ -196,7 +196,7 @@ main {
 	justify-content: space-evenly;
 }
 
-.left-side > .candidate-information > .languages > .language-items > .language-item {
+.left-side>.candidate-information>.languages>.language-items>.language-item {
 	display: flex;
 	flex-direction: row;
 	background: no-repeat center/100% url("./assets/Ресурс 3@288x.png");
@@ -207,12 +207,12 @@ main {
 	align-items: center;
 }
 
-.left-side > .candidate-information > .languages > .language-items > .language-item:last-child {
+.left-side>.candidate-information>.languages>.language-items>.language-item:last-child {
 	position: relative;
 	bottom: 43px;
 }
 
-.language-item > span {
+.language-item>span {
 	font-size: 12px;
 }
 
@@ -228,7 +228,7 @@ main {
 	justify-content: space-between;
 }
 
-.profile > .profile-info {
+.profile>.profile-info {
 	display: flex;
 	flex-direction: column;
 	border-left: solid 2px var(--yellow);
@@ -236,7 +236,7 @@ main {
 	width: 110%;
 }
 
-.profile-info > h2 {
+.profile-info>h2 {
 	display: flex;
 	flex-direction: column;
 	justify-content: end;
@@ -250,7 +250,7 @@ main {
 	font-size: 18px;
 }
 
-.profile-info > p {
+.profile-info>p {
 	padding: 20px 55px 15px 20px;
 	text-align: justify;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -262,7 +262,7 @@ main {
 	width: 60px;
 }
 
-.education > h2 {
+.education>h2 {
 	display: flex;
 	flex-direction: column;
 	justify-content: end;
@@ -277,7 +277,7 @@ main {
 	font-size: 18px;
 }
 
-.education > .education-info {
+.education>.education-info {
 	display: flex;
 	flex-direction: row;
 	padding: 20px;
@@ -286,7 +286,7 @@ main {
 	justify-content: space-between;
 }
 
-.education > .education-info > div > h2 {
+.education>.education-info>div>h2 {
 	display: flex;
 	flex-direction: column;
 	margin-top: 10px;
@@ -296,7 +296,7 @@ main {
 	font-size: 14px;
 }
 
-.education > .education-info > div > p {
+.education>.education-info>div>p {
 	display: flex;
 	flex-direction: column;
 	margin-top: 2px;
@@ -305,7 +305,7 @@ main {
 	font-size: 14px;
 }
 
-.work-experience > h2 {
+.work-experience>h2 {
 	display: flex;
 	flex-direction: column;
 	justify-content: end;
@@ -320,17 +320,17 @@ main {
 	font-size: 18px;
 }
 
-.work-experience > .work-items {
+.work-experience>.work-items {
 	display: flex;
 	flex-direction: column;
 	border-left: solid 2px var(--yellow);
 }
 
-.work-items > div {
+.work-items>div {
 	padding: 40px 0;
 }
 
-.work-items > div > h2 {
+.work-items>div>h2 {
 	display: flex;
 	flex-direction: column;
 	border-bottom: solid 2px var(--yellow);
@@ -338,11 +338,11 @@ main {
 	padding-left: 20px;
 }
 
-.work-items > div > div {
+.work-items>div>div {
 	padding-left: 20px;
 }
 
-.work-items > div > p {
+.work-items>div>p {
 	padding-left: 20px;
 }
 

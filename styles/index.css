@@ -1,0 +1,327 @@
+@charset "UTF-8";
+:root {
+  --brown: #774E2E;
+  --orange: #F37F34;
+  --white: #ffffff;
+  --yellow: #eac428; }
+
+.black {
+  color: black; }
+
+.yellow {
+  color: var(--yellow); }
+
+.title {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px; }
+
+.wd-10 {
+  width: 10px; }
+
+.wd-20 {
+  width: 20px; }
+
+.wd-30 {
+  width: 30px; }
+
+.wd-40 {
+  width: 40px; }
+
+.wd-50 {
+  width: 50px; }
+
+.wd-60 {
+  width: 60px; }
+
+.wd-70 {
+  width: 70px; }
+
+.wd-80 {
+  width: 80px; }
+
+.wd-90 {
+  width: 90px; }
+
+* {
+  margin: 0; }
+
+body {
+  font-family: 'Montserrat'; }
+  body container {
+    max-width: 1920px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto; }
+    body container main {
+      display: flex;
+      flex-direction: row;
+      margin: 0 auto;
+      justify-content: space-between;
+      flex-wrap: wrap; }
+      body container main .left-side {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px; }
+        body container main .left-side .candidate-photo {
+          background: no-repeat center/100% url("../assets/фото_1@288x.png");
+          max-width: 300px;
+          padding: 150px; }
+        body container main .left-side .candidate-say-hello {
+          font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+          margin: 0 auto;
+          width: 71%; }
+          body container main .left-side .candidate-say-hello p {
+            font-size: 40px;
+            font-weight: 800;
+            position: relative;
+            z-index: 4; }
+          body container main .left-side .candidate-say-hello .iam {
+            font-size: 40px;
+            font-weight: 800;
+            display: flex;
+            flex-direction: row; }
+            body container main .left-side .candidate-say-hello .iam p {
+              z-index: 4; }
+              body container main .left-side .candidate-say-hello .iam p:last-child {
+                margin-left: 10px; }
+            body container main .left-side .candidate-say-hello .iam .vertical-line {
+              width: 35px;
+              height: 160px;
+              position: absolute;
+              top: 279px;
+              background-color: var(--yellow);
+              z-index: 1; }
+        body container main .left-side .candidate-information {
+          display: flex;
+          flex-direction: column;
+          padding: 5px; }
+          body container main .left-side .candidate-information .contacts {
+            display: flex;
+            flex-direction: column;
+            padding: 0 20px;
+            background-color: var(--yellow);
+            flex-wrap: nowrap;
+            margin-left: 20px;
+            margin-top: 10px; }
+            body container main .left-side .candidate-information .contacts .contact-item {
+              margin: 10px 0; }
+              body container main .left-side .candidate-information .contacts .contact-item :last-child {
+                font-size: 12px; }
+          body container main .left-side .candidate-information .skills {
+            padding: 0 40px;
+            margin: 20px 0;
+            display: flex;
+            flex-direction: column; }
+            body container main .left-side .candidate-information .skills .skill-item {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              align-items: center;
+              margin: 20px 0; }
+              body container main .left-side .candidate-information .skills .skill-item .skill-name {
+                font-size: 12px; }
+              body container main .left-side .candidate-information .skills .skill-item .range {
+                display: flex;
+                flex-direction: row;
+                justify-content: center; }
+                body container main .left-side .candidate-information .skills .skill-item .range .skill-range-left {
+                  height: 10px;
+                  align-items: baseline;
+                  background-color: black; }
+                body container main .left-side .candidate-information .skills .skill-item .range .skill-range-right {
+                  height: 10px;
+                  align-items: baseline;
+                  background-color: var(--yellow); }
+        body container main .left-side .languages {
+          padding: 0 40px;
+          margin: 20px 0;
+          display: flex;
+          flex-direction: column; }
+          body container main .left-side .languages .language-items {
+            display: flex;
+            flex-direction: row;
+            max-width: 250px;
+            flex-wrap: wrap;
+            justify-content: space-evenly; }
+            body container main .left-side .languages .language-items .language-item {
+              display: flex;
+              flex-direction: row;
+              background: no-repeat center/100% url("../assets/Ресурс 3@288x.png");
+              height: 100px;
+              width: 100px;
+              flex-wrap: wrap;
+              justify-content: space-evenly;
+              align-items: center; }
+              body container main .left-side .languages .language-items .language-item:last-child {
+                position: relative;
+                bottom: 43px; }
+              body container main .left-side .languages .language-items .language-item span {
+                font-size: 12px; }
+    body container .right-side {
+      display: flex;
+      flex-direction: column;
+      width: 74%; }
+      body container .right-side .profile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; }
+        body container .right-side .profile .profile-info {
+          display: flex;
+          flex-direction: column;
+          border-left: solid 2px var(--yellow);
+          margin-top: 25px;
+          width: 110%; }
+          body container .right-side .profile .profile-info h2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            height: 150px;
+            border-bottom: solid 2px var(--yellow);
+            width: 105px;
+            padding-left: 20px;
+            text-transform: uppercase;
+            font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+            letter-spacing: 3px;
+            font-size: 18px; }
+          body container .right-side .profile .profile-info p {
+            padding: 20px 55px 15px 20px;
+            text-align: justify;
+            font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+      body container .right-side .education > h2:first-child {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        height: 50px;
+        border-bottom: solid 2px var(--yellow);
+        border-left: solid 2px var(--yellow);
+        width: 140px;
+        padding-left: 20px;
+        text-transform: uppercase;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        letter-spacing: 3px;
+        font-size: 18px; }
+      body container .right-side .education .education-info {
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        border-left: solid 2px var(--yellow);
+        width: 87%;
+        justify-content: space-between; }
+        body container .right-side .education .education-info h2 {
+          display: flex;
+          flex-direction: column;
+          margin-top: 10px;
+          margin-bottom: 5px;
+          text-transform: uppercase;
+          font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+          font-size: 14px; }
+        body container .right-side .education .education-info p {
+          display: flex;
+          flex-direction: column;
+          margin-top: 2px;
+          margin-bottom: 3px;
+          font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+          font-size: 14px; }
+      body container .right-side .work-experience > h2:first-child {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        height: 50px;
+        border-bottom: solid 2px var(--yellow);
+        border-left: solid 2px var(--yellow);
+        width: 240px;
+        padding-left: 20px;
+        text-transform: uppercase;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        letter-spacing: 3px;
+        font-size: 18px; }
+      body container .right-side .work-experience .work-items {
+        display: flex;
+        flex-direction: column;
+        border-left: solid 2px var(--yellow);
+        padding-bottom: 115px;
+        max-width: 65%; }
+        body container .right-side .work-experience .work-items div {
+          padding: 5px 0 0 0; }
+          body container .right-side .work-experience .work-items div h2 {
+            display: flex;
+            flex-direction: column;
+            width: 220px;
+            padding-left: 20px;
+            margin-top: 10px;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+            font-size: 14px; }
+            body container .right-side .work-experience .work-items div h2:first-child {
+              margin-top: 20px; }
+          body container .right-side .work-experience .work-items div div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between; }
+            body container .right-side .work-experience .work-items div div p:nth-child(2) {
+              padding-bottom: 10px; }
+          body container .right-side .work-experience .work-items div p {
+            padding-left: 20px;
+            font-size: 15px; }
+    body container footer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 80px;
+      background-color: var(--yellow); }
+
+.yellow-block {
+  background: var(--yellow);
+  height: 200px;
+  width: 60px; }
+
+@media only screen and (min-width: 1420px) {
+  .yellow-block {
+    display: none; }
+
+  body container .right-side {
+    width: 80%; } }
+@media only screen and (max-width: 1820px) {
+  .yellow-block {
+    display: none; }
+
+  body container .right-side {
+    width: 74%; } }
+@media only screen and (max-width: 1360px) {
+  .yellow-block {
+    display: none; }
+
+  body container .right-side {
+    width: 70%; } }
+@media only screen and (max-width: 1260px) {
+  .yellow-block {
+    display: none; }
+
+  body container .right-side {
+    width: 65%; } }
+@media only screen and (max-width: 1060px) {
+  .yellow-block {
+    display: none; }
+
+  body container .right-side {
+    width: 55%; } }
+@media only screen and (max-width: 800px) {
+  .yellow-block {
+    display: none; }
+
+  body container .right-side {
+    width: 45%; } }
+@media only screen and (max-width: 650px) {
+  .yellow-block {
+    display: none; }
+
+  body container main .right-side {
+    margin: 0 auto;
+    width: 100%; }
+  body container main .left-side {
+    margin: 0 auto;
+    width: 100%; } }
+
+/*# sourceMappingURL=index.css.map */
